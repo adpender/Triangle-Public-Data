@@ -1,0 +1,189 @@
+<!DOCTYPE html></!DOCTYPE>
+
+
+<html>
+	<head>
+		<title>
+		Triangle Public Data
+		</title>
+		
+	
+	<link rel = "stylesheet" href = "style.css"></link>
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	
+	
+	</head>
+	<body align = "center">
+	<div class = "header">
+	<a class="logoPic"href="MainPage.html"><img src="TrilogoSmall.png"></img></a>
+	<div class="menu">
+	
+	<table align="center">
+	
+	<tr>
+	
+	<td class="current">
+	<a href="MainPage.html"> Home </a>
+	</td>
+	<td>
+	<a href="MapsPage.html"> Maps</a>
+	</td>
+	<td>
+	<a href="about.html"> About Us</a>
+	</td>
+	<td>
+	<a href="contact.html"> Contact </a>
+	</td>
+	</table>
+	</div>
+	</div>
+	<!Copy till here for all other pages>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {box-sizing:border-box}
+	
+	.mySlides {display:none}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 100%;
+	  
+	  position: relative;
+	  margin: auto;
+	}
+
+
+
+
+
+
+
+	.active {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 3s;
+	  animation-name: fade;
+	  animation-duration: 3s;
+	}
+
+	@-webkit-keyframes fade {
+	  0% {opacity: .7}
+	  0% {filter: blur(3px)}
+	  100% {opacity: 1}
+	  100% {filter: blur(0px)}
+	}
+
+	@keyframes fade {
+	  0% {opacity: .7}
+	  0% {filter: blur(3px)}
+	  100% {opacity: 1}
+	  100% {filter: blur(0px)}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .text {font-size: 11px}
+	}
+	</style>
+	<body>
+	
+	<!all header images: 1920x500px>
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  
+	  <img src="oldWell.png" style="width:100%">
+	  
+	</div>
+
+	<div class="mySlides fade">
+	  
+	  <img src="DukeUniv.jpg" style="width:100%">
+	  
+	</div>
+
+	<div class="mySlides fade">
+	  
+	  <img src="raleighSky.jpg" style="width:100%">
+	  
+	</div>
+	<div class="mySlides fade">
+	  
+	  <img src="durhamSkyline.jpg" style="width:100%">
+	  
+	</div>
+	</div>
+	<br>
+
+	
+
+	<script>
+	var slideIndex = 0;
+	showSlides();
+
+	function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		
+		for (i = 0; i < slides.length; i++) {
+		   slides[i].style.display = "none";
+		}
+		slideIndex++;
+		if (slideIndex> slides.length) {slideIndex = 1}
+		
+		slides[slideIndex-1].style.display = "block";
+		
+		setTimeout(showSlides, 5000); // Change image every 2 seconds
+	}
+	</script>
+	
+	<h1>A new way to <a class="rick" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">visualize</a> data in the Triangle</h1>
+	<p>
+	Using ArcGIS technology on the ESRI platform, we were able to create a tool that
+	can visualize the intersectionality of multiple data points over a geographical region.
+	</p>
+	<br>
+	<p>With the analysis of local crime, education, and city data we were able to extrapolate and optimize key locations around the Triangle
+	such as Police Stations, Churches, and Fire Stations using this intuitive and powerful tool.	
+	</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<p class="foot">Created by Vishy Luhadia, Jake Browne, and Andrew Pendergast</p>
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+
+
+</html>
